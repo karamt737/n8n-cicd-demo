@@ -14,7 +14,7 @@ def test_calculate_discount_full():
 
 
 def test_is_valid_email_true():
-    assert is_valid_email("karamt@uw.edu") == True
+    assert is_valid_email("kafatou36@gmail.com") == True
 
 
 def test_is_valid_email_false():
