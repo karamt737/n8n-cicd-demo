@@ -2,7 +2,7 @@ from app import calculate_discount, is_valid_email
 
 
 def test_calculate_discount_basic():
-    assert calculate_discount(100, 10) == 9999
+    assert calculate_discount(100, 10) == 90
 
 
 def test_calculate_discount_zero():
@@ -14,7 +14,7 @@ def test_calculate_discount_full():
 
 
 def test_is_valid_email_true():
-    assert is_valid_email("user@example.com") == True
+    assert is_valid_email("karamt@uw.edu") == True
 
 
 def test_is_valid_email_false():
